@@ -1,0 +1,1 @@
+forfiles /p "E:\Program Files\Atlassian\Application Data\JIRA\export" /s /m *.* /c "cmd /c Del @path" /d -4
